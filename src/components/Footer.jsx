@@ -250,33 +250,33 @@ const Footer = ({ openContactModal }) => {
               <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
                 <span style={{ fontSize: '1.25rem', marginTop: '0.125rem' }}><FiMapPin /></span>
                 <span style={{ color: 'rgba(255, 255, 255, 0.7)' }}>
-                  123 Tech Avenue, San Francisco, CA 94107
+                  Cabrera Residence Bunggo Calamba City Laguna 4027
                 </span>
               </li>
               <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                 <span style={{ fontSize: '1.25rem' }}><FiMail /></span>
                 <a 
-                  href="mailto:info@cuesteraco.com" 
+                  href="mailto:teamcuestera@gmail.com" 
                   style={{ 
                     color: 'rgba(255, 255, 255, 0.7)',
                     transition: 'all 0.3s ease'
                   }}
                   className="footer-link"
                 >
-                  info@cuesteraco.com
+                  teamcuestera@gmail.com
                 </a>
               </li>
               <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                 <span style={{ fontSize: '1.25rem' }}><FiPhone /></span>
                 <a 
-                  href="tel:+15551234567" 
+                  href="tel:+63 975 849 6096" 
                   style={{ 
                     color: 'rgba(255, 255, 255, 0.7)',
                     transition: 'all 0.3s ease'
                   }}
                   className="footer-link"
                 >
-                  +1 (555) 123-4567
+                  +63 975 849 6096
                 </a>
               </li>
             </ul>
