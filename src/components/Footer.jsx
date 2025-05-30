@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-scroll'
-import { FiMapPin, FiMail, FiPhone, FiLinkedin, FiTwitter, FiInstagram, FiGithub } from 'react-icons/fi'
+import { FiMapPin, FiMail, FiPhone, FiInstagram, FiGithub, FiFacebook } from 'react-icons/fi'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTelegram, faWhatsapp, faDiscord } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = ({ openContactModal }) => {
   const footerVariants = {
@@ -59,47 +61,14 @@ const Footer = ({ openContactModal }) => {
           }}
         >
           <motion.div variants={itemVariants}>
-            <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>CUESTERACO</h3>
+            <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>CUESTERA CO.</h3>
             <p style={{ marginBottom: '1.5rem', color: 'rgba(255, 255, 255, 0.7)' }}>
-              Transforming ideas into digital excellence through innovative design and robust development solutions.
+              Let Cuestera Co. be your trusted guide in the ever-changing world of tech. Together, we’ll shape the future of your business.
             </p>
             <div style={{ display: 'flex', gap: '1rem' }}>
               <a 
-                href="#" 
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  width: '2.5rem',
-                  height: '2.5rem',
-                  borderRadius: '50%',
-                  background: 'rgba(255, 255, 255, 0.1)',
-                  color: 'white',
-                  transition: 'all 0.3s ease'
-                }}
-                className="social-link"
-              >
-                <FiLinkedin />
-              </a>
-              <a 
-                href="#" 
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  width: '2.5rem',
-                  height: '2.5rem',
-                  borderRadius: '50%',
-                  background: 'rgba(255, 255, 255, 0.1)',
-                  color: 'white',
-                  transition: 'all 0.3s ease'
-                }}
-                className="social-link"
-              >
-                <FiTwitter />
-              </a>
-              <a 
-                href="#" 
+                href="https://www.instagram.com/cuesteracoteam/" 
+                target='blank'
                 style={{
                   display: 'flex',
                   alignItems: 'center',
@@ -115,8 +84,10 @@ const Footer = ({ openContactModal }) => {
               >
                 <FiInstagram />
               </a>
+
               <a 
-                href="#" 
+                href="https://www.facebook.com/profile.php?id=61576337483139" 
+                target='blank'
                 style={{
                   display: 'flex',
                   alignItems: 'center',
@@ -130,8 +101,66 @@ const Footer = ({ openContactModal }) => {
                 }}
                 className="social-link"
               >
-                <FiGithub />
+                <FiFacebook />
               </a>
+
+              <a 
+                href="https://wa.me/qr/XF7XMVDCJZVBD1" 
+                target='blank'
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  width: '2.5rem',
+                  height: '2.5rem',
+                  borderRadius: '50%',
+                  background: 'rgba(255, 255, 255, 0.1)',
+                  color: 'white',
+                  transition: 'all 0.3s ease'
+                }}
+                className="social-link"
+              >
+                <FontAwesomeIcon icon={faWhatsapp}/>
+              </a>
+
+              <a 
+                href="https://t.me/cuesteracoteam" 
+                target='blank'
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  width: '2.5rem',
+                  height: '2.5rem',
+                  borderRadius: '50%',
+                  background: 'rgba(255, 255, 255, 0.1)',
+                  color: 'white',
+                  transition: 'all 0.3s ease'
+                }}
+                className="social-link"
+              >
+                <FontAwesomeIcon icon={faTelegram}/>
+              </a>
+
+              <a 
+                href="https://discord.com/channels/@me" 
+                target='blank'
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  width: '2.5rem',
+                  height: '2.5rem',
+                  borderRadius: '50%',
+                  background: 'rgba(255, 255, 255, 0.1)',
+                  color: 'white',
+                  transition: 'all 0.3s ease'
+                }}
+                className="social-link"
+              >
+                <FontAwesomeIcon icon={faDiscord}/>
+              </a>
+
             </div>
           </motion.div>
 

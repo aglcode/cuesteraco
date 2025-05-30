@@ -29,11 +29,10 @@ const Features = () => {
   }
 
   const features = [
-    'Custom-tailored solutions for your specific business needs',
-    'Responsive design that works across all devices',
-    'Optimized performance for faster loading times',
-    'Secure code and data protection',
-    'Scalable architecture for future growth',
+    'Custom Software & Application Development',
+    'Managed IT Services & Support',
+    'Web & Mobile Solutions',
+    'Technology Strategy & Consulting',
     'Ongoing support and maintenance'
   ]
 
@@ -63,7 +62,7 @@ const Features = () => {
                 marginBottom: '0.5rem'
               }}
             >
-              WHY CHOOSE US
+              Why Cuestera Co.?
             </motion.span>
             
             <motion.h2 variants={itemVariants}>
@@ -79,7 +78,7 @@ const Features = () => {
                 color: 'var(--text-secondary)'
               }}
             >
-              At CUESTERACO, we don't just build systems – we craft experiences that transform businesses. Our approach combines technical expertise with creative problem-solving to deliver results that exceed expectations.
+              Because we don’t just deliver services—we build partnerships. With a customer first mindset and a passion for innovation, we’re committed to understanding your unique challenges and crafting solutions that fit like a glove.
             </motion.p>
             
             <motion.ul

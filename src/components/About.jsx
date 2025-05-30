@@ -81,8 +81,8 @@ const About = () => {
             </motion.span>
             
             <motion.h2 variants={itemVariants}>
-              Pioneers in Digital <br />
-              Transformation
+              Cuestera Co. <br /> 
+               Your All-in-One Tech Partner
             </motion.h2>
             
             <motion.p 
@@ -93,7 +93,7 @@ const About = () => {
                 color: 'var(--text-secondary)'
               }}
             >
-              CUESTERACO was founded with a vision to bridge the gap between cutting-edge technology and business needs. We believe in creating digital solutions that not only solve problems but also inspire innovation.
+              Established in May 2025, Cuestera Co. is a technology solutions provider dedicated to helping businesses succeed in a digital first world. We offer a full range of services from software development and cloud solutions to IT support and technology consulting under one trusted name.
             </motion.p>
             
             <motion.p 
@@ -104,7 +104,7 @@ const About = () => {
                 color: 'var(--text-secondary)'
               }}
             >
-              With a team of experienced developers and designers, we approach each project with creativity, technical expertise, and a commitment to excellence that sets us apart.
+              Our mission is simple: to make technology seamless, efficient, and aligned with your business goals. Whether you're launching a startup or scaling an enterprise, Cuestera Co. delivers smart, tailored solutions that drive results.
             </motion.p>
             
             <motion.div 
@@ -116,17 +116,17 @@ const About = () => {
               }}
             >
               <div>
-                <h3 style={{ fontSize: '2.5rem', color: 'var(--accent-color)', marginBottom: '0.25rem' }}>150+</h3>
+                <h3 style={{ fontSize: '2.5rem', color: 'var(--accent-color)', marginBottom: '0.25rem' }}>3</h3>
                 <p style={{ fontWeight: 500 }}>Projects Completed</p>
               </div>
               
               <div>
-                <h3 style={{ fontSize: '2.5rem', color: 'var(--accent-color)', marginBottom: '0.25rem' }}>10+</h3>
+                <h3 style={{ fontSize: '2.5rem', color: 'var(--accent-color)', marginBottom: '0.25rem' }}>2+</h3>
                 <p style={{ fontWeight: 500 }}>Years Experience</p>
               </div>
               
               <div>
-                <h3 style={{ fontSize: '2.5rem', color: 'var(--accent-color)', marginBottom: '0.25rem' }}>50+</h3>
+                <h3 style={{ fontSize: '2.5rem', color: 'var(--accent-color)', marginBottom: '0.25rem' }}>5</h3>
                 <p style={{ fontWeight: 500 }}>Team Members</p>
               </div>
               

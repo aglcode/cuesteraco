@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { FiLinkedin, FiTwitter, FiGithub } from 'react-icons/fi'
+import { FiLinkedin, FiInstagram, FiFacebook } from 'react-icons/fi'
 import angelo from '../assets/team/gelo.jpg';
 import cuesta from '../assets/team/cuesta.jpg';
 import karen from '../assets/team/karen.jpg';
@@ -40,8 +40,8 @@ const Team = () => {
       image: karen,
       social: {
         linkedin: '#',
-        twitter: '#',
-        github: '#'
+        instagram: 'https://www.instagram.com/karena8_/',
+        facebook: 'https://www.facebook.com/MissC0620'
       }
     },
     {
@@ -50,8 +50,8 @@ const Team = () => {
       image: cuesta,
       social: {
         linkedin: '#',
-        twitter: '#',
-        github: '#'
+        instagram: 'https://www.instagram.com/rist_y06/',
+        facebook: 'https://www.facebook.com/sukato.midokusu'
       }
     },
     {
@@ -59,9 +59,9 @@ const Team = () => {
       position: 'Front-End Developer',
       image: angelo,
       social: {
-        linkedin: '#',
-        twitter: '#',
-        github: '#'
+        linkedin: 'https://www.linkedin.com/in/angelo-almonte/',
+        instagram: 'https://www.instagram.com/gelomnt_/',
+        facebook: 'https://www.facebook.com/angelo.almonte.494264/'
       }
     },
         {
@@ -70,8 +70,8 @@ const Team = () => {
       image: ryan,
       social: {
         linkedin: '#',
-        twitter: '#',
-        github: '#'
+        instagram: '#',
+        facebook: 'https://www.facebook.com/ryan.ofalsa.121402'
       }
     },
     {
@@ -79,9 +79,9 @@ const Team = () => {
       position: 'Multimedia/Designer',
       image: fi,
       social: {
-        linkedin: '#',
-        twitter: '#',
-        github: '#'
+        linkedin: 'https://www.linkedin.com/in/fi-sim-allen-oliva-473b88366/',
+        instagram: 'https://www.instagram.com/fifi_mosura/',
+        facebook: 'https://www.facebook.com/fisim.oliva'
       }
     }
   ]
@@ -184,6 +184,7 @@ const Team = () => {
                   <a 
                     href={member.social.linkedin}
                     className="social-link"
+                    target='blank'
                     style={{
                       display: 'flex',
                       alignItems: 'center',
@@ -201,8 +202,9 @@ const Team = () => {
                     <FiLinkedin size={20} />
                   </a>
                   <a 
-                    href={member.social.twitter}
+                    href={member.social.instagram}
                     className="social-link"
+                    target='blank'
                     style={{
                       display: 'flex',
                       alignItems: 'center',
@@ -218,11 +220,12 @@ const Team = () => {
                       transitionDelay: '0.1s'
                     }}
                   >
-                    <FiTwitter size={20} />
+                    <FiInstagram size={20} />
                   </a>
                   <a 
-                    href={member.social.github}
+                    href={member.social.facebook}
                     className="social-link"
+                    target='blank'
                     style={{
                       display: 'flex',
                       alignItems: 'center',
@@ -238,7 +241,7 @@ const Team = () => {
                       transitionDelay: '0.2s'
                     }}
                   >
-                    <FiGithub size={20} />
+                    <FiFacebook size={20} />
                   </a>
                 </div>
               </div>

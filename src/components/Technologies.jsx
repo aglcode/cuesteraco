@@ -5,11 +5,7 @@ import {
   FiHexagon,
   FiCode,
   FiDatabase,
-  FiGlobe,
-  FiSmartphone,
-  FiCloud,
-  FiShield,
-  FiTrendingUp
+  FiTool  
 } from 'react-icons/fi'
 
 const Technologies = () => {
@@ -41,42 +37,22 @@ const Technologies = () => {
     {
       icon: <FiCode />,
       title: 'Frontend',
-      items: ['React', 'Vue.js', 'Angular', 'Next.js', 'TailwindCSS']
+      items: ['React', 'JavaScript', 'HTML', 'CSS', 'TailwindCSS', 'Bootstap 5']
     },
     {
       icon: <FiDatabase />,
       title: 'Backend',
-      items: ['Node.js', 'Python', 'Java', 'PHP', 'Ruby on Rails']
+      items: ['Laravel', 'PHP']
     },
     {
       icon: <FiHexagon />,
       title: 'Databases',
-      items: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase', 'Redis']
+      items: ['MongoDB', 'MySQL', 'Firebase']
     },
     {
-      icon: <FiGlobe />,
-      title: 'CMS',
-      items: ['WordPress', 'Shopify', 'Contentful', 'Strapi', 'Sanity.io']
-    },
-    {
-      icon: <FiSmartphone />,
-      title: 'Mobile',
-      items: ['React Native', 'Flutter', 'Swift', 'Kotlin', 'Ionic']
-    },
-    {
-      icon: <FiCloud />,
-      title: 'Cloud',
-      items: ['AWS', 'Google Cloud', 'Azure', 'Vercel', 'Netlify']
-    },
-    {
-      icon: <FiShield />,
-      title: 'Security',
-      items: ['OAuth', 'JWT', 'HTTPS', 'SSL', 'Two-Factor Auth']
-    },
-    {
-      icon: <FiTrendingUp />,
-      title: 'Analytics',
-      items: ['Google Analytics', 'Mixpanel', 'Hotjar', 'Amplitude', 'Segment']
+      icon: <FiTool />,
+      title: 'Design Tools',
+      items: ['Figma', 'Canva', 'Photoshop', 'Wix Studio']
     }
   ]
 

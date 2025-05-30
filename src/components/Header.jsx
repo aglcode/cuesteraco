@@ -199,16 +199,12 @@ const Header = ({ openContactModal }) => {
           }}
         >
           <div style={{ width: '100%', marginBottom: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem' }}>
-            {/* Logo and Brand */}
-            <svg fill="none" height="36" viewBox="0 0 32 32" width="36">
-              <path
-                clipRule="evenodd"
-                d="M17.6482 10.1305L15.8785 7.02583L7.02979 22.5499H10.5278L17.6482 10.1305ZM19.8798 14.0457L18.11 17.1983L19.394 19.4511H16.8453L15.1056 22.5499H24.7272L19.8798 14.0457Z"
-                fill="currentColor"
-                fillRule="evenodd"
-              />
-            </svg>
-            <span style={{ fontWeight: 800, fontSize: '1.5rem' }}>CUESTERACO</span>
+            <img
+              src={logo}
+              alt="Cuesteraco Logo"
+              style={{ height: '40px', width: 'auto' }}
+            />
+            {/* <span style={{ fontWeight: 800, fontSize: '1.5rem' }}>CUESTERACO</span> */}
           </div>
           <nav style={{ width: '100%' }}>
             {menuItems.map((item) => (
