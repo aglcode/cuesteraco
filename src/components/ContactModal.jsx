@@ -61,19 +61,19 @@ const ContactModal = ({ closeModal }) => {
     {
       icon: <FiMail />,
       title: 'Email',
-      value: 'info@cuesteraco.com',
-      link: 'mailto:info@cuesteraco.com'
+      value: 'teamcuestera@gmail.com',
+      link: 'mailto:teamcuestera@gmail.com'
     },
     {
       icon: <FiPhone />,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+63 975 849 6096',
+      link: '#'
     },
     {
       icon: <FiMapPin />,
       title: 'Address',
-      value: '123 Tech Avenue, San Francisco, CA 94107',
+      value: 'Cabrera Residence Bunggo Calamba City Laguna 4027',
       link: '#'
     }
   ]

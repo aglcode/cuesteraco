@@ -298,7 +298,7 @@ const Footer = ({ openContactModal }) => {
           }}
         >
           <p style={{ margin: 0, color: 'rgba(255, 255, 255, 0.7)' }}>
-            © {currentYear} CUESTERACO. All Rights Reserved.
+            © {currentYear} CUESTERA CO. All Rights Reserved.
           </p>
         </div>
       </div>
