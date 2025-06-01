@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-scroll'
+import { Link as NavLink } from 'react-router-dom'
 import { FiMapPin, FiMail, FiPhone, FiInstagram, FiGithub, FiFacebook } from 'react-icons/fi'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTelegram, faWhatsapp, faDiscord } from '@fortawesome/free-brands-svg-icons'
@@ -63,7 +64,7 @@ const Footer = ({ openContactModal }) => {
           <motion.div variants={itemVariants}>
             <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>CUESTERA CO.</h3>
             <p style={{ marginBottom: '1.5rem', color: 'rgba(255, 255, 255, 0.7)' }}>
-              Let Cuestera Co. be your trusted guide in the ever-changing world of tech. Together, we’ll shape the future of your business.
+              Let Cuestera Co. be your trusted guide in the ever-changing world of tech. Together, we'll shape the future of your business.
             </p>
             <div style={{ display: 'flex', gap: '1rem' }}>
               <a 
@@ -187,38 +188,38 @@ const Footer = ({ openContactModal }) => {
                   </Link>
                 </li>
               ))}
-              {/* Add Privacy Policy and Terms links */}
+              {/* Fixed Privacy Policy and Terms links */}
               <li style={{ marginBottom: '1rem' }}>
-                <a
-                  href="/privacy-policy"
+                <NavLink
+                  to="/privacy-policy"
+                  target='blank'
                   style={{
                     cursor: 'pointer',
                     color: 'rgba(255, 255, 255, 0.7)',
                     transition: 'all 0.3s ease',
-                    display: 'inline-block'
+                    display: 'inline-block',
+                    textDecoration: 'none'
                   }}
                   className="footer-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Privacy Policy
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/terms-and-conditions"
+                <NavLink
+                  to="/terms-and-conditions"
+                  target='blank'
                   style={{
                     cursor: 'pointer',
                     color: 'rgba(255, 255, 255, 0.7)',
                     transition: 'all 0.3s ease',
-                    display: 'inline-block'
+                    display: 'inline-block',
+                    textDecoration: 'none'
                   }}
                   className="footer-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Terms & Conditions
-                </a>
+                </NavLink>
               </li>
             </ul>
           </motion.div>
