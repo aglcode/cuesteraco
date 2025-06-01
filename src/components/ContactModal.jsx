@@ -68,7 +68,7 @@ const ContactModal = ({ closeModal }) => {
       icon: <FiPhone />,
       title: 'Phone',
       value: '+63 975 849 6096',
-      link: 'tel+63 975 849 6096'
+      link: '#'
     },
     {
       icon: <FiMapPin />,

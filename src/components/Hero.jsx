@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { ContainerTextFlip } from './ui/container-text-flip'
 
 const Hero = ({ openContactModal }) => {
   return (
@@ -22,7 +23,7 @@ const Hero = ({ openContactModal }) => {
           width: '300px',
           height: '300px',
           borderRadius: '50%',
-          background: 'var(--accent-color)', 
+          background: 'var(--accent-color)',
           opacity: 0.1,
           zIndex: 0
         }}
@@ -60,24 +61,33 @@ const Hero = ({ openContactModal }) => {
             style={{
               fontSize: '1.125rem',
               fontWeight: 500,
-              color: 'var(--text-secondary)'
+              color: 'var(--accent-color)'
             }}
           >
             SYSTEM DEVELOPMENT & DESIGN
           </motion.span>
           
-          <motion.h1
+         <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             style={{
-              marginBottom: '1.5rem',
-              lineHeight: 1.1,
-              color: 'var(--text-secondary)'
+              marginBottom: '1rem',
+              marginTop: '1.8rem',
+              lineHeight: 1.2,
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '0.5rem'
             }}
           >
-            <span style={{ fontSize: '2rem' }}> Transforming Ideas Into </span><br />
-            <span style={{ color: 'var(--accent-color)', fontWeight: 'bold'}}>Digital Excellence</span>
+            <span style={{ fontSize: '0.9em', fontWeight: 'normal' }}>Transforming Ideas Into</span>
+            <span style={{ fontSize: '1em' }}>
+              <ContainerTextFlip
+                  words={["Excellence", "Innovation", "Solutions", "Designs"]}
+                interval={4000}
+                 className="!bg-none ![background:var(--accent-blue)] !text-white"
+              />
+            </span>
           </motion.h1>
           
           <motion.p
