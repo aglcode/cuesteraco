@@ -61,7 +61,8 @@ const Hero = ({ openContactModal }) => {
             style={{
               fontSize: '1.125rem',
               fontWeight: 500,
-              color: 'var(--accent-color)'
+              color: 'var(--accent-color)',
+              marginTop: '5rem'
             }}
           >
             SYSTEM DEVELOPMENT & DESIGN
