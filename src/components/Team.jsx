@@ -2,11 +2,11 @@ import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { FiLinkedin, FiInstagram, FiFacebook } from 'react-icons/fi'
-import angelo from '../assets/team/gelo.jpg';
-import cuesta from '../assets/team/cuesta.jpg';
-import karen from '../assets/team/karen.jpg';
-import ryan from '../assets/team/ryan.jpg';
-import fi from '../assets/team/fi.jpg';
+import angelo from '../assets/team/geloformal.jpg';
+import cuesta from '../assets/team/cuestaformal.jpg';
+import karen from '../assets/team/karenformal.jpg';
+import ryan from '../assets/team/ryanformal.jpg';
+import fi from '../assets/team/fiformal.jpg';
 
 const Team = () => {
   const ref = useRef(null)

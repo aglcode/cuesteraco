@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { FiCheck } from 'react-icons/fi'
+import featuresImage from '../assets/features/question-mark.png'
 
 const Features = () => {
   const ref = useRef(null)
@@ -164,7 +165,7 @@ const Features = () => {
               }}
             >
               <img 
-                src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" 
+                src={featuresImage}
                 alt="Team collaboration" 
                 style={{
                   width: '100%',

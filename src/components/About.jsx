@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import aboutus from '../assets/about/about.jpg'
 
 const About = () => {
   const ref = useRef(null)
@@ -55,7 +56,7 @@ const About = () => {
               }}
             >
               <img 
-                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" 
+                src= {aboutus}
                 alt="Team working together" 
                 style={{
                   width: '100%',
